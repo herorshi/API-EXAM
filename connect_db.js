@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
 let mysql = require("mysql");
+// const mysql = require("serverless-mysql");
 var cors = require("cors");
 const dotenv = require("dotenv");
 dotenv.config();
