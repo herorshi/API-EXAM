@@ -97,5 +97,5 @@ const User = {
     let list_sql = await db.con_db(sql_search);
     res.json({ data: list_sql });
   }
-};
+};   
 module.exports = User;
