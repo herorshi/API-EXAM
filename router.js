@@ -1,6 +1,6 @@
 const controllerUser = require("./controller/user_list");
 function getRouter(app) {
-  app.get("/", controllerUser.test);
+  app.get("/test", controllerUser.test);
   app.get("/get_user", controllerUser.get_user);
   app.post("/add_user", controllerUser.add_user);
   app.post("/check_user", controllerUser.check_user);
