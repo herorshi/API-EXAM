@@ -17,11 +17,6 @@ app.use(body());
 
 const { getRouter } = require("./router");
 getRouter(app);
-//////////////////Detail///////////////
-// app.get("/", (req, res) => {
-//   res.end("Hello Metasit");
-// });
-//////////////////Detail///////////////
 var server = app.listen(4000, function() {
   var host = server.address().address;
   var port = server.address().port;
